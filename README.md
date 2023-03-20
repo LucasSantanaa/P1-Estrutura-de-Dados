@@ -5,7 +5,7 @@
 # Engenharia de Software 
 [![N|Solid](https://universidadedevassouras.edu.br/wp-content/uploads/2021/12/Simbolo_Engenharia_de_Software.jpg)](https://universidadedevassouras.edu.br/graduacao-marica/engenharia-de-software/)
 
-## Estrutura-de-dados
+## Estrutura-De-Dados
 
 ## Aluno: Lucas De Santana Pulcherio
 
