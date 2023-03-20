@@ -11,7 +11,7 @@
 
 ## Professor: Marcio Garrido
 
-## Algoritimo Capaz de Ordenar de Forma Cresecente e Decrescente;e Imprimir o Grafico Big´O.
+## Algoritimo Capaz de Ordenar de Forma Cresecente e Decrescente,e Imprimir o Grafico Big´O.
 Com o intuito de Ordenar em Forma Cresecente e Decresente as listas dadas no problema, utilizei o metodo 'sorted' e 'reverse=true' para ordenar cada elemento das listas 
 Por esse motivo o custo computacional do codigo e bem diferenciado.
 
