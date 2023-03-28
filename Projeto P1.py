@@ -26,7 +26,13 @@ import matplotlib.pyplot as plt
 def fib(n):
     if n <= 1:
         return n
-    return fib(n - 1) + fib(n - 2)
+    fib_n_menos_2 = 0
+    fib_n_menos_1 = 1
+    for i in range(4, n):
+        fib_n = fib_n_menos_1 + fib_n_menos_2
+        fib_n_menos_2 = fib_n_menos_1
+        fib_n_menos_1 = fib_n
+    return fib_n_menos_1 + fib_n_menos_2
  
 #Listas para armazenar os valores de n e o tempo de execução
 ns = []
