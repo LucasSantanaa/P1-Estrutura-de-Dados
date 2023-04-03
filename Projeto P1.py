@@ -18,9 +18,9 @@ print('\nElementos Em Ordem Crescente: \n',lista_cr)
 lista_dc = sorted(lista1+lista2+lista3+lista4, reverse= True)
 print('\nElementos Em Ordem Decrescente: \n',lista_dc)
 
-#Big O --Resultado de O(n**2) 
+#Big´O----------
 import time
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt #Biblioteca para criar e mostrar o grafico.
 
 # Função da sequência de Fibonacci
 def fib(n):
@@ -38,18 +38,18 @@ def fib(n):
 ns = []
 tempos = []
  
-#Testar a função para vários valores de N
+#Testar a função para vários valores de N(def fib)
 for n in range(1, 31):
-    start = time.perf_counter()
-    result= fib(n)
-    end = time.perf_counter()
-    ms = (end-start) * 10**6
-    ns.append(n)
-    tempos.append(ms)
-print(result) 
+    start = time.perf_counter()#inicio do tempo de execução
+    result= fib(n)# receber o def de fibonacci
+    end = time.perf_counter()#fianl do tempo de execução
+    ms = (end-start) * 10**6 #variavel do tempo final - inicial
+    ns.append(n)#adicionar a variavel do for n na lista ns
+    tempos.append(ms)#adicionar a varial ms na lista de tempo
+print('\nTempo: ',result) 
 
 #Criar o gráfico
-plt.plot(ns, tempos)
+plt.plot(ns, tempos)#organizar o grafico com os valores de ns e tempos
 plt.xlabel('Valor de N')
-plt.ylabel('Tempo de execução(Micro segundos)')
+plt.ylabel('Tempo(Micro segundos)')
 plt.show()
